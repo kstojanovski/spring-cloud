@@ -8,8 +8,9 @@ Here are some link for learning Spring Cloud:
 * [Microservices with Spring Boot 3 and Spring Cloud](https://piotrminkowski.com/2023/03/13/microservices-with-spring-boot-3-and-spring-cloud/)
 ## Components
 Following components are part of Spring Cloud
-* Discovery Service - Spring Cloud Netflix Eureka
-* Config Service - Spring Cloud Config
-* Gateway Service - Spring Cloud Gateway
-* Trace Service - Micrometer OpenTelemetry and Zipkin
-* Interservice Communication - Spring Cloud OpenFeign
+* Spring Cloud Netflix - Discovery Service - Spring Cloud Netflix Eureka
+* Spring Cloud Config - Config Service - Spring Cloud Config
+* Spring Cloud Gateway - Gateway Service - Spring Cloud Gateway
+* Spring Cloud Sleuth - Trace Service - Micrometer OpenTelemetry and Zipkin
+* Spring Cloud OpenFeign - Interservice Communication - Spring Cloud OpenFeign
+* Spring Cloud Circuit Breaker - Resilience Ability - Resilience4J and Spring Retry 
