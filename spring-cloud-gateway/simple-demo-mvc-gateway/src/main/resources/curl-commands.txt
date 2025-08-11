@@ -1,0 +1,23 @@
+curl http://localhost:8080/api/hello-world/
+
+curl -X GET \
+  -H "Authorization: Bearer 12345" \
+  -H "Content-Type: application/json" \
+  -H "Accept: application/json" \
+  -H "User-Agent: MyCustomUserAgent/1.0" \
+  -H "X-Company-Id: 12345" \
+  -H "X-Company-Name: ACME" \
+  -H "X-User-Id: 54321" \
+  -H "X-User-Role: Common" \
+  http://localhost:8080/api/hello-routed-world/
+
+curl -X GET \
+  -H "Authorization: Bearer 12345" \
+  -H "Content-Type: application/json" \
+  -H "Accept: application/json" \
+  -H "User-Agent: MyCustomUserAgent/1.0" \
+  -H "X-Company-Id: 12345" \
+  -H "X-Company-Name: ACME" \
+  -H "X-User-Id: 54321" \
+  -H "X-User-Role: Common" \
+  http://localhost:8080/api/hello-very-routed-world/
